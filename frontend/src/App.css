@@ -1,0 +1,27 @@
+#root {
+  margin: 0 auto;
+  text-align: center;
+
+}
+.font-link {
+  font-family: "Bebas Neue";
+}
+
+
+.responsive-margin {
+  margin-top: 2.25rem; /* Equivalent to mt-9 in Tailwind CSS */
+}
+
+/* Medium screens (768px and up) */
+@media (min-width: 768px) {
+  .responsive-margin {
+    margin-top: 1.5rem; /* Equivalent to md:mt-10 in Tailwind CSS */
+  }
+}
+
+/* Large screens (1024px and up) */
+@media (min-width: 1024px) {
+  .responsive-margin {
+    margin-top: 2 rem; /* Equivalent to lg:mt-48 in Tailwind CSS */
+  }
+}
